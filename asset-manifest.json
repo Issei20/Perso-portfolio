@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/Perso-portfolio/static/css/main.14962929.css",
-    "main.js": "/Perso-portfolio/static/js/main.ec087670.js",
+    "main.css": "/Perso-portfolio/static/css/main.a2954330.css",
+    "main.js": "/Perso-portfolio/static/js/main.9f4d5e4b.js",
     "static/media/yordlee.png": "/Perso-portfolio/static/media/yordlee.0d7abac825ff0fe87a9d.png",
     "static/media/lostArk.jpg": "/Perso-portfolio/static/media/lostArk.27647446b018a1956b6d.jpg",
     "static/media/STEINS.png": "/Perso-portfolio/static/media/STEINS.d50963d772410d943f9a.png",
+    "static/media/posts.png": "/Perso-portfolio/static/media/posts.c73044fb4c813021e6b8.png",
+    "static/media/inventory.png": "/Perso-portfolio/static/media/inventory.b65b71cfa60032dd97fa.png",
     "static/media/diam.png": "/Perso-portfolio/static/media/diam.78d2c0156f177eb5728f.png",
     "static/media/weather.png": "/Perso-portfolio/static/media/weather.dd654852efab412d4e8c.png",
     "static/media/jestLogo.png": "/Perso-portfolio/static/media/jestLogo.23770b8c707d5005a9b0.png",
+    "static/media/ex.png": "/Perso-portfolio/static/media/ex.e3d4f9e5c8b469e45838.png",
     "index.html": "/Perso-portfolio/index.html",
-    "main.14962929.css.map": "/Perso-portfolio/static/css/main.14962929.css.map",
-    "main.ec087670.js.map": "/Perso-portfolio/static/js/main.ec087670.js.map"
+    "main.a2954330.css.map": "/Perso-portfolio/static/css/main.a2954330.css.map",
+    "main.9f4d5e4b.js.map": "/Perso-portfolio/static/js/main.9f4d5e4b.js.map"
   },
   "entrypoints": [
-    "static/css/main.14962929.css",
-    "static/js/main.ec087670.js"
+    "static/css/main.a2954330.css",
+    "static/js/main.9f4d5e4b.js"
   ]
 }
