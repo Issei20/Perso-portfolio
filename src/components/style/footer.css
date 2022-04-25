@@ -1,0 +1,84 @@
+footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: #10101bbe;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    position: absolute; 
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.contact-title {
+    letter-spacing: 0.2em;
+    font-size: 2rem;
+    padding: 1vh;
+}
+
+span.contact {
+    color: #d24141;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #d24141;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.links-contact {
+    display: flex;
+    gap: 3vh;
+    justify-content: flex-start;
+}
+
+.contact-mail {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+
+.mailLog {
+    height: 5vh;
+    display: none;
+}
+
+
+.iconContact {
+    color: white;
+    transition: all 150ms ease-in-out;
+    height: 5vh;
+}
+
+.iconContact:hover {
+    transform: scale(105%);
+    cursor: pointer;
+    color: #d24141;;
+}
+
+.feelFree {
+    padding: 2vh;
+    font-size: 1.2rem;
+    color: #d24141;
+}
+
+
+@media (max-width : 500px) {
+    #footer {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        max-width: 100vw;
+    }
+}

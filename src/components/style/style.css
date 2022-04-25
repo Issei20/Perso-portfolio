@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #1a1a2d;
+
+}
+
+
+.header-container {
+    display: flex;
+    background: #1a1a2d;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: rgb(236, 236, 236);
+    
+}
+
+
+.header-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 10vh;
+    margin-top: 40vh;
+}
+
+.header-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding: 0px;
+    margin-top: 10vh;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+     
+    }
+    to {
+        opacity:1;
+      
+    }
+}
+
+.first-intro {
+    
+    animation: fadein 2s;
+    animation-fill-mode: forwards;
+}
+
+.first-intro span {
+    color: #d24141;
+}
+
+.second-intro {
+    opacity: 0;
+    animation: fadein 2s 1.5s;
+    animation-fill-mode: forwards;
+}
+
+button {
+    cursor: pointer;
+}
+
+.code-logo {
+    height: 10vh;
+    width: 10vw;
+}
+
+.fullName {
+    margin-bottom:  0vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1.6px;
+}
+
+.profession {
+    margin-top: 0vh;
+    align-self: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.projects-btn {
+    overflow: hidden;
+}
+
+.enter-btn {
+    background:rgba(0, 0, 0, 0); 
+    color: rgb(243, 243, 243);
+    border: 2px;
+    border-color: #d24141;
+    border-style: solid;
+    padding: 2vh;
+    width: 15vw;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 1.6px;
+    transition: all 200ms ease-in-out;
+    border-radius: 0.5rem;
+
+}
+
+  
+.enter-btn:hover {
+    background:#d24141;
+    color: rgb(255, 255, 255);
+}
+
+.header-btn {
+    opacity: 0;
+    animation: fadein 2s 2.5s;
+    animation-fill-mode: forwards;
+    display: flex;
+    gap: 2vw;
+}
+
+@media (max-width: 500px) {
+    .enter-btn {
+        width: 85vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-container {
+        max-width: 100vw;
+    }
+
+    .header-btn {
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .intro-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-intro {
+        width: 80vw;
+        
+    }
+
+    .second-intro {
+        width: 80vw;
+    }
+}
