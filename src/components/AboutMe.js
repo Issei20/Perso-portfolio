@@ -35,8 +35,6 @@ const AboutMe = () => {
                <div>{iconJs} JAVASCRIPT</div>
                <div>{iconReact} REACT</div>
                <div>{iconSass} SASS</div>
-               <div>{iconNode} NODEJS</div>
-               <div><img className="iconBrand iconEx" src={ex} alt="express"></img> EXPRESS</div>
                <div>{iconNpm} NPM</div>
                <div><img className="logoSkill" src={webpack} alt="webpack"></img> WEBPACK</div> 
                <div>{iconGithub} GITHUB</div>

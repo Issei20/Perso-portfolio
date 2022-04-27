@@ -124,8 +124,8 @@
 .skill-box {
     padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1Fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1Fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 2vw;
     
 }
@@ -155,6 +155,11 @@
     .aboutMe-title {
         max-width: 100vw;
      
+    }
+
+    .skill-box {
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 }
 
